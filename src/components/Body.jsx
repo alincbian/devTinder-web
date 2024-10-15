@@ -2,9 +2,9 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 
 import NavBar from "./NavBar";
-import { Footer } from "./Footer";
+import Footer from "./Footer";
 
-export const Body = () => {
+const Body = () => {
   return (
     <div>
       <NavBar />
@@ -13,3 +13,5 @@ export const Body = () => {
     </div>
   );
 };
+
+export default Body;
