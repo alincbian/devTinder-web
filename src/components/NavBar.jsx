@@ -24,7 +24,7 @@ const NavBar = () => {
     <div className="navbar bg-base-300">
       <div className="flex-1">
         <Link to="/" className="btn btn-ghost text-xl">
-          daisyUI
+          DevTinder
         </Link>
       </div>
       {user && (
@@ -51,7 +51,10 @@ const NavBar = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/Connections">Connections</Link>
+                <Link to="/connections">Connections</Link>
+              </li>
+              <li>
+                <Link to="/requests">Requests</Link>
               </li>
               <li>
                 <a onClick={handleLogout}>Logout</a>
